@@ -1,0 +1,150 @@
+.end-elements {
+    .container {
+        border-bottom: 1px solid #101b24;
+    }
+    background-color: $stColor;
+    .footer-cont-mnu {
+        padding: 6em 0;
+        .footer-title {
+            h4 {
+                font-family: 'ITC-bd';
+                color: $secColor;
+                position: relative;
+                padding-bottom: 1em;
+                margin-bottom: 1em;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    width: 30px;
+                    height: 1px;
+                    background: $secColor;
+                    z-index: 2;
+                }
+            }
+        }
+        ul.footer-menu {
+            li {
+                width: 49%;
+                display: inline-block;
+                position: relative;
+                padding: 1em;
+                a {
+                    font-family: 'ITC-lt';
+                    color: $white;
+                    font-size: 14px;
+                    &:hover {
+                        color: $secColor;
+                    }
+                }
+                &::before {
+                    display: inline-block;
+                    font: normal normal normal 14px/1 FontAwesome;
+                    content: "\f104";
+                    right: 0;
+                    position: absolute;
+                    color: $secColor;
+                    bottom: 19px;
+                }
+            }
+        }
+        .footer-form {
+            li {
+                color: $white;
+                line-height: 3.7;
+                &:hover {
+                    color: $secColor;
+                }
+                i {
+                    margin-left: 1em;
+                    color: $thirdColor;
+                    font-size: 18px;
+                }
+                a {
+                    color: $white;
+                    font-family: 'ITC-r';
+                }
+            }
+        }
+    }
+}
+.copyright-part {
+    background-color: $stColor;
+    .container {
+        padding: 0;
+        .col-sm-4 {
+            .socializing {
+                ul {
+                    li {
+                        display: inline-block;
+                        a {
+                            i {
+                                color: #15222e;
+                                font-size: 23px;
+                                background-color: white;
+                                height: 36px;
+                                line-height: 1.6;
+                                width: 36px;
+                                text-align: center;
+                                border-radius: 50%;
+                                margin-top: .5em;
+                                &:hover {
+                                    background-color: $secColor;
+                                    color: $white;
+                                }
+                            }
+                            i.fa-twitter {
+                                margin: 0 .5em;
+                            }
+                        }
+                    }
+                }
+            }
+            padding: 0;
+            p {
+                padding: 1.25em 0;
+                color: $white;
+            }
+            p.sec-paragraph {
+                float: left;
+                a {
+                    color: $white;
+                    font-family: 'ITC-bd';
+                    &:hover {
+                        color: $secColor;
+                    }
+                }
+            }
+        }
+    }
+}
+.face-page-insert {
+    padding-top: 6em;
+}
+@media (max-width:1200px) {
+    .social-media {
+        ul {
+            li {
+                width: 14%;
+                a {
+                    color: $white;
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .end-elements { 
+        .footer-cont-mnu {
+            padding: 2.5em 0 ;
+        }
+    }
+    .social-media ul li {
+        width: 100%; 
+        margin-top: .2em;
+    }
+}

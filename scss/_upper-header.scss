@@ -1,0 +1,94 @@
+header {
+    background: url(../images/003.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .language-area {
+        text-align: left;
+        .container {
+            padding: 0;
+            a {
+                img {
+                    margin: .75em 0;
+                }
+            }
+        }
+    }
+    nav {
+        .container {
+            background-color: #16232f;
+            .navbar-header {
+                a.navbar-brand {
+                    height: 120px;
+                    padding: .25em;
+                }
+                span.fa-bars {
+                    color: white;
+                    font-size: 2em;
+                    margin-top: 1em;
+                }
+            }
+            ul.navbar-nav {
+                li.active {
+                    a {
+                        color: $secColor;
+                    }
+                }
+                li {
+                    padding: 2.5em 1em 2.5em 0;
+                    a {
+                        font-family: 'ITC-r';
+                        color: $white;
+                        &:hover {
+                            color: $secColor;
+                        }
+                    }
+                }
+            }
+            ul.navbar-left {
+                li {
+                    a {
+                        background-color: $secColor;
+                        font-family: 'ITC-bd';
+                        padding: 1em 1.5em;
+                        border-radius: 4px;
+                        &:hover {
+                            color: $stColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tele-academy-des {
+        padding: 6em 0 12em 0;
+        h3 {
+            color: $white;
+            font-family: 'ITC-bd';
+            a {
+                color: $secColor;
+                font-family: 'ITC-bd';
+                font-size: 2.5em;
+            }
+        }
+        p {
+            color: $white;
+            width: 80%;
+            margin: auto;
+            line-height: 2;
+            font-size: 17px;
+        }
+    }
+    .tele-academy-paging {
+        padding: 1em 0 4em;
+        a {
+            color: $white;
+            font-size: 22px;
+        }
+        span {
+            color: $secColor;
+            font-size: 3em;
+            font-weight: bold;
+        }
+    }
+}
