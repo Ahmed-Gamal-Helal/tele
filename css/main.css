@@ -779,7 +779,7 @@ header .tele-academy-paging span {
 /*** End _body-part. ***/
 /*** Start Footer ***/
 .end-elements {
-  background-color: blue;
+  background-color: red;
 }
 .end-elements .container {
   border-bottom: 1px solid #101b24;
