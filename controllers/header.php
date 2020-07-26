@@ -19,7 +19,7 @@
         <!-- Lightbox -->
         <link rel="stylesheet" href="css/lightbox.css" />
         <!-- Styling File -->
-        <link rel="stylesheet" href="scss/main.css" />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
 
     <header>
