@@ -1,22 +1,39 @@
 header {
-    background: url(../images/003.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // min-height: 100vh;
+    // background: url(../images/003.png);
+    // background-size: cover;
+    .upnav{
+        background-color: $stColor;
+        color: white;
+        text-align: center;
+        padding: 5px 0px;
+        font-size: $size-12;
+        span{
+            padding: 0px $size-20;
+        }
+    }
+
+    //background: url(../images/003.png);
+    //background-position: center;
+    //background-size: cover;
+    //background-repeat: no-repeat;
+    
     .language-area {
         text-align: left;
+        padding: $size-12 0px;
+        background-color: white;
         .container {
             padding: 0;
-            a {
-                img {
-                    margin: .75em 0;
-                }
+            span{
+                margin: 0px $size-5;
             }
         }
     }
     nav {
+        background-color: $stColor;
+        border-radius: 0px !important ;
+        margin-bottom: 0 !important;
         .container {
-            background-color: #16232f;
             .navbar-header {
                 a.navbar-brand {
                     height: 120px;
@@ -35,7 +52,7 @@ header {
                     }
                 }
                 li {
-                    padding: 2.5em 1em 2.5em 0;
+                    // padding: 2.5em 1em 2.5em 0;
                     a {
                         font-family: 'ITC-r';
                         color: $white;
@@ -60,35 +77,106 @@ header {
             }
         }
     }
-    .tele-academy-des {
-        padding: 6em 0 12em 0;
-        h3 {
-            color: $white;
-            font-family: 'ITC-bd';
-            a {
-                color: $secColor;
-                font-family: 'ITC-bd';
-                font-size: 2.5em;
-            }
-        }
-        p {
-            color: $white;
-            width: 80%;
-            margin: auto;
-            line-height: 2;
-            font-size: 17px;
-        }
+    // .tele-academy-des {
+    //     padding: 6em 0 12em 0;
+    //     h3 {
+    //         color: $white;
+    //         font-family: 'ITC-bd';
+    //         a {
+    //             color: $secColor;
+    //             font-family: 'ITC-bd';
+    //             font-size: 2.5em;
+    //         }
+    //     }
+    //     p {
+    //         color: $white;
+    //         width: 80%;
+    //         margin: auto;
+    //         line-height: 2;
+    //         font-size: 17px;
+    //     }
+    // }
+    // .tele-academy-paging {
+    //     padding: 1em 0 4em;
+    //     a {
+    //         color: $white;
+    //         font-size: 22px;
+    //     }
+    //     span {
+    //         color: $secColor;
+    //         font-size: 3em;
+    //         font-weight: bold;
+    //     }
+    // }
+}
+
+// home style
+.tele-academy-paging{
+    background: url(../images/003.png);
+    background-size: cover;
+    min-height: 100vh;
+    h2{
+        color: white;
+        letter-spacing: 10px;
+        text-transform: uppercase;
     }
-    .tele-academy-paging {
-        padding: 1em 0 4em;
-        a {
-            color: $white;
-            font-size: 22px;
-        }
-        span {
-            color: $secColor;
-            font-size: 3em;
-            font-weight: bold;
-        }
+    button{
+        background-color: $secColor;
+        color: white;
+        padding: $size-10 $size-20;
+        text-transform: uppercase;
+        margin: $size-20;
+        font-size: $size-12;
+        border-radius: $size-5;
     }
+    p{
+        color: white;
+        font-size: $size-12;
+    }
+    a{
+        color: white;
+        font-size: $size-12;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}
+
+    
+// .tele-academy-des {
+//     padding: 6em 0 12em 0;
+//     h3 {
+//         color: $white;
+//         font-family: 'ITC-bd';
+//         a {
+//             color: $secColor;
+//             font-family: 'ITC-bd';
+//             font-size: 2.5em;
+//         }
+//     }
+//     p {
+//         color: $white;
+//         width: 80%;
+//         margin: auto;
+//         line-height: 2;
+//         font-size: 17px;
+//     }
+// }
+// .tele-academy-paging {
+    // padding: 1em 0 4em;
+//     a {
+//         color: $white;
+//         font-size: 22px;
+//     }
+//     span {
+//         color: $secColor;
+//         font-size: 3em;
+//         font-weight: bold;
+//     }
+// }
+
+.px-5 {
+    padding: 0 5px;
+}
+.color-white {
+    color: white;
 }

@@ -160,23 +160,31 @@ input.personal-passport {
 
 /*** End Global Properties ***/
 /*** Start Upper-Header ***/
-header {
-  background: url(../images/003.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+header .upnav {
+  background-color: #404d6f;
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 12px;
+}
+header .upnav span {
+  padding: 0px 20px;
 }
 header .language-area {
   text-align: left;
+  padding: 12px 0px;
+  background-color: white;
 }
 header .language-area .container {
   padding: 0;
 }
-header .language-area .container a img {
-  margin: 0.75em 0;
+header .language-area .container span {
+  margin: 0px 5px;
 }
-header nav .container {
-  background-color: #16232f;
+header nav {
+  background-color: #404d6f;
+  border-radius: 0px !important;
+  margin-bottom: 0 !important;
 }
 header nav .container .navbar-header a.navbar-brand {
   height: 120px;
@@ -188,57 +196,61 @@ header nav .container .navbar-header span.fa-bars {
   margin-top: 1em;
 }
 header nav .container ul.navbar-nav li.active a {
-  color: #5bba02;
-}
-header nav .container ul.navbar-nav li {
-  padding: 2.5em 1em 2.5em 0;
+  color: #cec47f;
 }
 header nav .container ul.navbar-nav li a {
   font-family: "ITC-r";
   color: #FFF;
 }
 header nav .container ul.navbar-nav li a:hover {
-  color: #5bba02;
+  color: #cec47f;
 }
 header nav .container ul.navbar-left li a {
-  background-color: #5bba02;
+  background-color: #cec47f;
   font-family: "ITC-bd";
   padding: 1em 1.5em;
   border-radius: 4px;
 }
 header nav .container ul.navbar-left li a:hover {
-  color: #15222e;
+  color: #404d6f;
 }
-header .tele-academy-des {
-  padding: 6em 0 12em 0;
+
+.tele-academy-paging {
+  background: url(../images/003.png);
+  background-size: cover;
+  min-height: 100vh;
 }
-header .tele-academy-des h3 {
-  color: #FFF;
-  font-family: "ITC-bd";
+.tele-academy-paging h2 {
+  color: white;
+  letter-spacing: 10px;
+  text-transform: uppercase;
 }
-header .tele-academy-des h3 a {
-  color: #5bba02;
-  font-family: "ITC-bd";
-  font-size: 2.5em;
+.tele-academy-paging button {
+  background-color: #cec47f;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 12px;
+  border-radius: 5px;
 }
-header .tele-academy-des p {
-  color: #FFF;
-  width: 80%;
-  margin: auto;
-  line-height: 2;
-  font-size: 17px;
+.tele-academy-paging p {
+  color: white;
+  font-size: 12px;
 }
-header .tele-academy-paging {
-  padding: 1em 0 4em;
+.tele-academy-paging a {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
-header .tele-academy-paging a {
-  color: #FFF;
-  font-size: 22px;
+
+.px-5 {
+  padding: 0 5px;
 }
-header .tele-academy-paging span {
-  color: #5bba02;
-  font-size: 3em;
-  font-weight: bold;
+
+.color-white {
+  color: white;
 }
 
 /*** End Upper-Header ***/
@@ -271,7 +283,7 @@ header .tele-academy-paging span {
   text-align: center;
 }
 .our-services .repeated-column h3 {
-  color: #5bba02;
+  color: #cec47f;
   margin: 0;
   font-family: "ITC-md";
   font-size: 20px;
@@ -290,7 +302,7 @@ header .tele-academy-paging span {
   line-height: 6;
 }
 .our-services .right-side-design a {
-  color: #5bba02;
+  color: #cec47f;
   font-size: 24px;
 }
 .our-services .right-side-design p {
@@ -351,12 +363,12 @@ header .tele-academy-paging span {
   margin-top: 5em;
 }
 .our-news .owl-carousel .owl-dots .owl-dot span {
-  background-color: #5bba02;
+  background-color: #cec47f;
   width: 5px;
   height: 5px;
 }
 .our-news .owl-carousel .owl-dots .owl-dot.active span, .our-news .owl-carousel .owl-dots .owl-dot:hover span {
-  background-color: #5bba02;
+  background-color: #cec47f;
   width: 20px;
   height: 5px;
 }
@@ -421,7 +433,7 @@ header .tele-academy-paging span {
   font-size: 1.2em;
 }
 .our-articles .read-article a {
-  color: #5bba02;
+  color: #cec47f;
   font-family: "ITC-md";
 }
 .our-articles .read-article a:hover {
@@ -432,7 +444,7 @@ header .tele-academy-paging span {
 }
 .our-articles .all-articles h4 a {
   font-size: 18px;
-  border: 1px solid #5bba02;
+  border: 1px solid #cec47f;
   padding: 0.5em 2em;
   font-family: "ITC-r";
   color: #000;
@@ -588,7 +600,7 @@ header .tele-academy-paging span {
   left: 0;
   top: 0;
   height: 4em;
-  background-color: #5bba02;
+  background-color: #cec47f;
   font-family: "ITC-bd";
   padding-right: 1.5em;
   padding-left: 1.5em;
@@ -603,7 +615,7 @@ header .tele-academy-paging span {
 }
 .who-we-are .right-side h2 {
   margin: 0 0 1em 0;
-  color: #5bba02;
+  color: #cec47f;
 }
 .who-we-are .right-side p {
   line-height: 2;
@@ -627,7 +639,7 @@ header .tele-academy-paging span {
   margin: 1em 0;
 }
 .managing-article .container .manage-photo h3 {
-  color: #5bba02;
+  color: #cec47f;
 }
 .managing-article .container .manage-photo p {
   line-height: 1.9;
@@ -636,7 +648,7 @@ header .tele-academy-paging span {
 
 .contact-us-page h4 {
   font-family: "ITC-bd";
-  color: #5bba02;
+  color: #cec47f;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
@@ -703,7 +715,7 @@ header .tele-academy-paging span {
   color: #000;
 }
 .footer-cont-mnu-2 ul.footer-menu li a:hover {
-  color: #5bba02;
+  color: #cec47f;
 }
 .footer-cont-mnu-2 ul.footer-menu li::before {
   display: inline-block;
@@ -711,14 +723,14 @@ header .tele-academy-paging span {
   content: "";
   right: 0;
   position: absolute;
-  color: #5bba02;
+  color: #cec47f;
   bottom: 19px;
 }
 .footer-cont-mnu-2 .footer-form li {
   line-height: 3.5;
 }
 .footer-cont-mnu-2 .footer-form li:hover {
-  color: #5bba02;
+  color: #cec47f;
 }
 .footer-cont-mnu-2 .footer-form li i {
   margin-left: 1em;
@@ -733,6 +745,14 @@ header .tele-academy-paging span {
 /*** End _body-part. ***/
 /*** Start _body-part.***/
 /********* MIN MEDIA *********/
+@media (min-width: 769px) {
+  .tele-academy-paging p {
+    width: 50%;
+    margin: auto;
+    padding: 40px 0px;
+    font-size: 14px;
+  }
+}
 /********* END MIN MEDIA *********/
 /********* START MAX MEDIA *********/
 @media (max-width: 1200px) {
@@ -779,7 +799,7 @@ header .tele-academy-paging span {
 /*** End _body-part. ***/
 /*** Start Footer ***/
 .end-elements {
-  background-color: red;
+  background-color: blue;
 }
 .end-elements .container {
   border-bottom: 1px solid #101b24;
@@ -789,7 +809,7 @@ header .tele-academy-paging span {
 }
 .end-elements .footer-cont-mnu .footer-title h4 {
   font-family: "ITC-bd";
-  color: #5bba02;
+  color: #cec47f;
   position: relative;
   padding-bottom: 1em;
   margin-bottom: 1em;
@@ -801,7 +821,7 @@ header .tele-academy-paging span {
   bottom: 0;
   width: 30px;
   height: 1px;
-  background: #5bba02;
+  background: #cec47f;
   z-index: 2;
 }
 .end-elements .footer-cont-mnu ul.footer-menu li {
@@ -816,7 +836,7 @@ header .tele-academy-paging span {
   font-size: 14px;
 }
 .end-elements .footer-cont-mnu ul.footer-menu li a:hover {
-  color: #5bba02;
+  color: #cec47f;
 }
 .end-elements .footer-cont-mnu ul.footer-menu li::before {
   display: inline-block;
@@ -824,7 +844,7 @@ header .tele-academy-paging span {
   content: "";
   right: 0;
   position: absolute;
-  color: #5bba02;
+  color: #cec47f;
   bottom: 19px;
 }
 .end-elements .footer-cont-mnu .footer-form li {
@@ -832,7 +852,7 @@ header .tele-academy-paging span {
   line-height: 3.7;
 }
 .end-elements .footer-cont-mnu .footer-form li:hover {
-  color: #5bba02;
+  color: #cec47f;
 }
 .end-elements .footer-cont-mnu .footer-form li i {
   margin-left: 1em;
@@ -845,7 +865,7 @@ header .tele-academy-paging span {
 }
 
 .copyright-part {
-  background-color: #15222e;
+  background-color: #404d6f;
 }
 .copyright-part .container {
   padding: 0;
@@ -868,7 +888,7 @@ header .tele-academy-paging span {
   margin-top: 0.5em;
 }
 .copyright-part .container .col-sm-4 .socializing ul li a i:hover {
-  background-color: #5bba02;
+  background-color: #cec47f;
   color: #FFF;
 }
 .copyright-part .container .col-sm-4 .socializing ul li a i.fa-twitter {
@@ -886,7 +906,7 @@ header .tele-academy-paging span {
   font-family: "ITC-bd";
 }
 .copyright-part .container .col-sm-4 p.sec-paragraph a:hover {
-  color: #5bba02;
+  color: #cec47f;
 }
 
 .face-page-insert {

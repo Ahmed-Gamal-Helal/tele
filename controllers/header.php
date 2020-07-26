@@ -8,11 +8,11 @@
         <title>Tele</title>
         <!-- Shortcut Icon -->
         <link rel="shortcut icon" href="images/001.png" />
-        <!-- Font Awesome Css -->
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
         <!-- Bootstrap Css -->
         <link rel="stylesheet" href="css/bootstrap-e.min.css" />
-        <link rel="stylesheet" href="css/bootstrap-a.min.css" />
+        <!-- Font Awesome Css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <!-- <link rel="stylesheet" href="css/bootstrap-a.min.css" /> -->
         <!-- Owl carousel -->
         <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
         <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css">
@@ -23,35 +23,67 @@
     </head>
 
     <header>
-        <div class="language-area">
+        
+        <!-- up nav 1-->
+
+        <div class="upnav">
             <div class="container">
-                <a href="#">
-                    <img src="images/002.png" alt="">
-                </a>
+              <p> <span> - </span> Welcome and hapy day <span> - </span></p>
             </div>
         </div>
+
+        <!--  change language  -->
+
+        <div class="language-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="dropdown">
+                            <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span class="caret"></span>اللغة العربية
+                            <span> <img src="images/002.png"> </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">ُاللغة العربية</a></li>
+                                <li><a href="#">ُُُالانجليزيه</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/logo.png" width="50%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- navbar -->
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="fa fa-bars"></span>                        
                     </button>
-                    <a class="navbar-brand" href="#">
+                    <!-- <a class="navbar-brand" href="#">
                         <img src="images/001.png" alt="">
-                    </a>
+                    </a> -->
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php">الرئيسيه</a></li>
-                    <li><a href="who-we-are.php">من نحن</a></li>
-                    <li><a href="services.php">الخدمات</a></li>
-                    <li><a href="articles.php">المقالات</a></li>
-                    <li><a href="news.php">أخبارنا</a></li>
-                    <li><a href="contact-us.php">تواصل معنا</a></li>
+                    <li class="active"><a href="index.php">Home<i class="fa fa-home px-5"></i></a></li>
+                    <li><a href="favorites.php">Favorites<i class="fa fa-heart px-5"></i></a></li>
+                    <li><a href="notifications.php">Notifications<i class="fa fa-bell px-5"></i></a></li>
+                    <li><a href="messages.php">Messages<i class="fa fa-envelope px-5"></i></a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">الغرف الإفتراضيه</a></li>
-                </ul>
+                <!-- <ul class="nav navbar-nav navbar-right">
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown"><span> <img src="images/002.png" alt=""></span>  
+                         اللغة العربية   <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">ُاللغة العربية</a></li>
+                            <li><a href="#">ُُالانجليزيه</a></li>
+                        </ul>
+                    </div>
+                </ul> -->
                 </div>
             </div>
         </nav>
@@ -61,21 +93,6 @@
                 <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو ...</p>
             </div>
         </div> -->
-        <div class="tele-academy-paging">
-            <div class="container text-center">
-                <h3><a href="index.php">الرئيسيه /</a></h3>
-                <!-- <h3><a href="index.php">الرئيسيه / <a href="services.php">الخدمات</a></a></h3> -->
-                <!-- <h3><a href="index.php">الرئيسيه / <a href="articles.php">المقالات</a></a></h3> -->
-                <!-- <h3><a href="index.php">الرئيسيه / <a href="news.php">الأخبار</a></a></h3> -->
-                <!-- <span>من نحن </span> -->
-                <!-- <span>الخدمات </span> -->
-                <!-- <span>المقالات </span> -->
-                <!-- <span>تصميم </span> -->
-                <!-- <span>اداره المراجع باستخدام mendeley </span> -->
-                <!-- <span>بدء كورس تكنولوجيا المعلومات</span> -->
-                <span>تواصل معنا </span>
-            </div>
-        </div>
     </header>
 
     <body>

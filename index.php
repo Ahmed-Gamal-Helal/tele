@@ -2,7 +2,18 @@
     include 'controllers/header.php';
 ?>
 
-    <div class="heading-repeat">
+
+        <div class="tele-academy-paging">
+            <div class="container text-center">
+                <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cumque praesentium corporis rem atque delectus suscipit! Ducimus, suscipit doloremque quisquam omnis modi rem placeat, reiciendis quidem veniam praesentium laboriosam. Molestias.</p>
+                <h2>New Member </h2>
+                <button>new member</button>
+                <p>I Already have an account</p>
+                <a href="#"> Signin</a>
+            </div>
+        </div>
+
+    <!-- <div class="heading-repeat">
         <div class="container text-center">
             <img src="images/004.png" alt="">
             <h2>خدماتنا</h2>
@@ -451,8 +462,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-<?php
-    include 'controllers/footer.php';
-?>
